@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collection Samples Hub | json-renderers-from-instructions-collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f7f6; font-family: system-ui, -apple-system, sans-serif; }
+        .hero-banner {
+            background: linear-gradient(135deg, #102a43 0%, #0b1a2a 100%);
+            color: #edf3f9;
+            border-radius: 16px;
+            padding: 32px 36px;
+            margin-bottom: 32px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .sample-card {
+            border-radius: 12px;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+        .sample-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <main class="container py-5">
+        <!-- Hero Header -->
+        <div class="hero-banner">
+            <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap gap-2">
+                <span class="badge bg-primary px-3 py-2">
+                    <i class="bi bi-collection-play me-1"></i> Interactive Test Lab
+                </span>
+                <span class="text-secondary small">samples / v1 / hub</span>
+            </div>
+            <h1 class="h2 fw-bold mb-2">Collection Renderer Combination Lab</h1>
+            <p class="text-light-50 mb-0" style="color: #b8c6d7;">
+                Explore all multi-renderer combinations. Each sample executes in 1 statement from shared schema and data.
+            </p>
+        </div>
+
+        <!-- Samples Grid -->
+        <div class="row g-4">
+            <!-- Sample 1 -->
+            <div class="col-md-6">
+                <a href="./form-and-table/index.html" class="card h-100 p-4 border-0 shadow-sm sample-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="badge bg-primary me-2 px-3 py-2"><i class="bi bi-layout-text-window-reverse"></i></span>
+                        <h5 class="fw-bold mb-0">Form + Table Combo</h5>
+                    </div>
+                    <p class="text-muted small mb-3">
+                        Data Entry Form on top with a live, responsive Table underneath. Table includes serial numbering (#), action buttons, and top search bar.
+                    </p>
+                    <span class="text-primary fw-semibold small mt-auto">Launch Sample →</span>
+                </a>
+            </div>
+
+            <!-- Sample 2 -->
+            <div class="col-md-6">
+                <a href="./table-and-form/index.html" class="card h-100 p-4 border-0 shadow-sm sample-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="badge bg-success me-2 px-3 py-2"><i class="bi bi-table"></i></span>
+                        <h5 class="fw-bold mb-0">Table + Form (Reversed)</h5>
+                    </div>
+                    <p class="text-muted small mb-3">
+                        Live records Table on top with Data Entry Form docked below. Demonstrates flexible layout order in renderers collection.
+                    </p>
+                    <span class="text-success fw-semibold small mt-auto">Launch Sample →</span>
+                </a>
+            </div>
+
+            <!-- Sample 3 -->
+            <div class="col-md-6">
+                <a href="./select-and-table/index.html" class="card h-100 p-4 border-0 shadow-sm sample-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="badge bg-warning text-dark me-2 px-3 py-2"><i class="bi bi-ui-checks"></i></span>
+                        <h5 class="fw-bold mb-0">Select + Table Combo</h5>
+                    </div>
+                    <p class="text-muted small mb-3">
+                        Standalone Select dropdown control populated from columns, stacked right on top of a responsive data table.
+                    </p>
+                    <span class="text-warning text-dark fw-semibold small mt-auto">Launch Sample →</span>
+                </a>
+            </div>
+
+            <!-- Sample 4 -->
+            <div class="col-md-6">
+                <a href="./dashboard-all/index.html" class="card h-100 p-4 border-0 shadow-sm sample-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="badge bg-danger me-2 px-3 py-2"><i class="bi bi-grid-3x3-gap"></i></span>
+                        <h5 class="fw-bold mb-0">Grand Combo: All 4 Components</h5>
+                    </div>
+                    <p class="text-muted small mb-3">
+                        Renders Select + DataList + Form + Table all together on a single screen from one SSOT dataset and columns definition.
+                    </p>
+                    <span class="text-danger fw-semibold small mt-auto">Launch Sample →</span>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
