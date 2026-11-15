@@ -1,5 +1,5 @@
-import columns from "../common/columns.json" with { type: "json" };
-import initialData from "../common/data.json" with { type: "json" };
+import columns from "../../v1/common/columns.json" with { type: "json" };
+import initialData from "../../v1/common/data.json" with { type: "json" };
 import render from "../../../docs/dist/v1/min.js";
 
 const targetHtmlId = "dom-render-container";
