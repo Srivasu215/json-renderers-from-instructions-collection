@@ -1,0 +1,20 @@
+[
+  {
+    "event": "input",
+    "selector": "#tableSearch",
+    "action": "onSearchFilter",
+    "narration": "Filter table rows in real-time as user types"
+  },
+  {
+    "event": "submit",
+    "selector": "form[data-role=\"form-body\"]",
+    "action": "onFormSubmit",
+    "narration": "Extract form inputs, append to dataset, and re-render"
+  },
+  {
+    "event": "click",
+    "selector": ".ks-btn-show",
+    "action": "onRowShow",
+    "narration": "Show toast alert with selected row values"
+  }
+]
